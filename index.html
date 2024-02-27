@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:769px) and (max-width:1440px){
+            .main2{
+                display: none;
+            }
+            .main3{
+                display: none;
+            }
+        .main{
+            border: 1px solid black;  height: 450px;width: 440px;
+            display: grid;
+            gap: 4px;
+            background-color: black;
+            
+            
+
+        }
+        .kk{
+            background-color: red;
+            
+        }
+        .one{
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+        .two{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    }
+    @media screen and (min-width:425px) and (max-width:768px){
+        .main{
+            display: none;
+        }
+        .main3{
+            display: none;
+        }
+        .main2{
+            width: 900px;
+            height: 350px;
+            background-color: rgb(34, 34, 240);
+            display: grid;
+            padding: 5px;
+            gap: 5px
+            
+        
+        }
+        .kk{
+            background-color: rgb(184, 232, 238);
+            display: grid;
+            justify-content: center;
+            align-content: center; 
+           
+           
+        }
+        .Header{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+
+        }
+        .Menu{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .Main{
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+        .Footer{
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+
+    }
+    @media screen and (min-width:0px) and (max-width:768px){
+        .main{
+            display: none;
+        }
+        .main2{
+            display: none;
+        }
+        .main3{
+            border: 1px solid black;  height: 450px;width: 440px;
+            display: grid;
+            gap: 4px;
+            background-color: black;
+            
+            
+
+        }
+        .kk{
+            background-color: red;
+            
+        }
+        .one{
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+        .two{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="kk one">one</div>
+        <div class="kk two">two</div>
+        <div class="kk three">three</div>
+        <div class="kk four">four</div>
+        <div class="kk five">five</div>
+        <div class="kk six">six</div>
+    </div>
+    <div class="main2">
+        <div class="Header kk">Header</div>
+        <div class="Main kk">Main</div>
+        <div class="Menu kk">Menu</div>
+        <div class="Right kk">Right</div>
+        <div class="Footer kk">Footer</div>
+    </div>
+    <div class="main3">
+        <div class="kk one"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+        <div class="kk two"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+        <div class="kk three"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+        <div class="kk four"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+        <div class="kk five"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+        <div class="kk six"><img src="https://tse3.mm.bing.net/th?id=OIP.BXYbbn0IgAucv82dsHgtzwHaEo&pid=Api&P=0&h=220" height="100%" width="100%"/></div>
+    </div>
+</body>
+</html>
